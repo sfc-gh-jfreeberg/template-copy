@@ -18,6 +18,7 @@ jobs:
       - run: ls
       - run: ls -a ~/
       - run: cat ~/.bash_profile
+      - run: touch ~/.bash_profile
       
       - run: bash snowsql-1.2.24-linux_x86_64.bash
         shell: bash
