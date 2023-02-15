@@ -24,4 +24,3 @@ jobs:
         shell: bash
         env:
           SNOWSQL_DEST: ${{ github.workspace }}
-          SNOWSQL_LOGIN_SHELL: ~/.bash_profile
