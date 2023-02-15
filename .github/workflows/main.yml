@@ -19,6 +19,7 @@ jobs:
       - run: ls -a ~/
       
       - run: bash snowsql-1.2.24-linux_x86_64.bash
+        shell: bash
         env:
           SNOWSQL_DEST: ${{ github.workspace }}
           SNOWSQL_LOGIN_SHELL: ~/.bash_profile
